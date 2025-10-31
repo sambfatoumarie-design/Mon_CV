@@ -59,7 +59,10 @@ margin-top: 35px;
     margin-bottom: 5px;
 
 }
-
+.G i{
+    color: #c5687b;
+    margin-right: 2px;
+}
 .partie_droite{
 width: 60%;
 padding: 30px 40px;
@@ -81,4 +84,22 @@ font-size:18px ;
 .D ul{
     margin-left: 10px;
     font-size: 15px;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+.section-title {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease-in-out;
+  
+ 
+ 
+}
+.section-title.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
